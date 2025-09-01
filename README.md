@@ -3,7 +3,7 @@
 This project implements a **5x5 Sudoku Solver** using **RISC-V Assembly**, executed on the **Ripes Simulator**.  
 It demonstrates how a recursive backtracking algorithm can be mapped to low-level assembly programming.
 
----
+
 
 ## Features
 - Backtracking-based Sudoku solver for a 5x5 grid.
@@ -12,13 +12,13 @@ It demonstrates how a recursive backtracking algorithm can be mapped to low-leve
 - Efficient stack frame usage for recursive calls.
 - Solution output displayed in the Ripes console.
 
----
+
 
 ## Tech Stack
 - Language: RISC-V Assembly  
 - Simulator: [Ripes](https://github.com/mortbopet/Ripes)
 
----
+
 
 ## Methodology
 1. Grid Initialization:  
@@ -34,7 +34,7 @@ It demonstrates how a recursive backtracking algorithm can be mapped to low-leve
    - If the grid is completely filled → prints the solution.  
    - If no valid solution exists → prints a failure message.  
 
----
+
 
 ## Sample Input/Output
 
